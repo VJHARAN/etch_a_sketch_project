@@ -1,23 +1,56 @@
 body{
+
     box-sizing:border-box;
-    
+    text-align: center;
+    padding-top: 2px;
+   
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
 }
 .container{
     display: flex;
     flex-wrap:wrap;
-    width:768px;
-    height:768px;
+    justify-content: end;
+    
+    height:800px;
+    width:800px;
     border:1px solid black; 
-    margin: 50px auto;
+    margin: 5px auto;
+   
+    
 }
 
 .container div{
-    
-    flex:1 1 6.25%;
-    width: 48px;
-    height:48px;
-    border:1px solid red;
+    border:2px solid #000;
     box-sizing: border-box;
+    
+}
+button{
      
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    padding:3px 6px;
+    font-size: 15px;
+     
+    color:#000000;
+    
+    background-color: #fff200;
+    border:5px solid #b6b2b2;
+    border-radius: 8px;
+    border-style:outset;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.831);
+    border-radius: 15px;
+    color:#fff200;;
+    border-style:inset;
 }
  
