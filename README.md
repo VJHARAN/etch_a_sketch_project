@@ -3,7 +3,7 @@
 <h3>Description</h3>
 <p>Built a browser version of a Sketchpad .</p>
 
-<h3><a href="https://vjharan.github.io/etch_a_sketch_project/">view project</a></h3>
+<h3><a href="https://vjharan.github.io/sketchpad_project/">view project</a></h3>
 
 <h3>Project Screenshot</h3>
 <img src="./images/black-grid.png" alt="screenshot1" width="80%">
